@@ -208,17 +208,17 @@ plugins:
     options:
       provider: giscus
       options:
-        repo: TODO:username/repo-name
-        repoId: TODO:your-repo-id
+        repo: syndrome87/aquala_quartz
+        repoId: R_kgDOURrCfQ
         category: Announcements
-        categoryId: TODO:your-category-id
-        mapping: url
+        categoryId: DIC_kwDOURrCfc4DFsbB
+        mapping: pathname
         strict: true
         reactionsEnabled: true
         inputPosition: bottom
         lightTheme: light
         darkTheme: dark
-        lang: en
+        lang: zh-CN
     layout:
       position: afterBody
       priority: 10
