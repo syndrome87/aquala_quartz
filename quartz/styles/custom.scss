@@ -43,7 +43,10 @@ body::before {
   .sidebar.left .page-title {
     min-width: 0;
     margin: 0;
+    font-size: clamp(1.2rem, 5vw, 1.4rem);
+    font-weight: 650;
     line-height: 1.2;
+    letter-spacing: -0.015em;
 
     a {
       display: block;
@@ -56,6 +59,37 @@ body::before {
   .sidebar.left > .flex-component {
     min-width: 0;
     margin-left: auto;
+  }
+
+  .sidebar.left .search-button p {
+    font-size: 0.875rem;
+    line-height: 1;
+  }
+
+  .sidebar.left .explorer .explorer-content {
+    padding: 4.25rem 1rem 1.5rem;
+    font-family: var(--bodyFont);
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  .sidebar.left .explorer-content .nav-file-title {
+    display: block;
+    padding: 0.35rem 0.25rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: 0.005em;
+  }
+
+  .sidebar.left .explorer-content .folder-container {
+    min-height: 2.25rem;
+  }
+
+  .sidebar.left .explorer-content .folder-title {
+    font-size: 0.95rem;
+    line-height: 1.45;
+    letter-spacing: 0.005em;
   }
 }
 

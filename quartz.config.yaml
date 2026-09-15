@@ -267,8 +267,8 @@ plugins:
       language: yaml
     order: 5
     layout:
-      position: beforeBody
-      priority: 15
+      position: afterBody
+      priority: 5
       display: all
 layout:
   groups:
